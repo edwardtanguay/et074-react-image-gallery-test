@@ -1,3 +1,19 @@
 body {
   margin-left: 1rem;
 }
+
+.custom-gallery-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+
+  .image-description {
+    margin-top: 10px;
+    font-style: italic;
+    position: absolute;
+    color: red;
+    font-size: 4rem;
+  }
+}
