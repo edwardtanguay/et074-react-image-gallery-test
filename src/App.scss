@@ -1,6 +1,7 @@
 body {
 	margin-left: 1rem;
 	background-color: #333;
+	font-family: sans-serif;
 }
 
 .image-gallery {
@@ -20,10 +21,13 @@ body {
 		}
 		.image-description {
 			margin-top: 10px;
-			font-style: italic;
 			position: absolute;
 			color: red;
 			font-size: 4rem;
+
+			span {
+
+			}
 		}
 	}
 }
