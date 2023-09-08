@@ -1,19 +1,29 @@
 body {
-  margin-left: 1rem;
+	margin-left: 1rem;
+	background-color: #333;
 }
 
-.custom-gallery-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
+.image-gallery {
+		width: 30rem;
+		background-color: #444;
+		padding: 1rem;
 
-  .image-description {
-    margin-top: 10px;
-    font-style: italic;
-    position: absolute;
-    color: red;
-    font-size: 4rem;
-  }
+	.custom-gallery-item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		position: relative;
+
+		img {
+			width: 20rem;
+		}
+		.image-description {
+			margin-top: 10px;
+			font-style: italic;
+			position: absolute;
+			color: red;
+			font-size: 4rem;
+		}
+	}
 }
