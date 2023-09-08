@@ -5,9 +5,9 @@ body {
 }
 
 .image-gallery {
-		width: 30rem;
-		background-color: #444;
-		padding: 1rem;
+	width: 30rem;
+	background-color: #444;
+	padding: 1rem;
 
 	.custom-gallery-item {
 		display: flex;
@@ -18,15 +18,19 @@ body {
 
 		img {
 			width: 20rem;
+			height: 20rem;
 		}
+
 		.image-description {
-			margin-top: 10px;
+			top: 1.1rem;
+			left: 5.5rem;
 			position: absolute;
-			color: red;
-			font-size: 4rem;
+			color: #ccc;
 
 			span {
-
+				background-color: #111;
+				padding: .2rem .4rem;
+				font-size: .9rem;
 			}
 		}
 	}
